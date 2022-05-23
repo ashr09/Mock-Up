@@ -60,10 +60,29 @@ h3 {
   color: var(--paragraph-color);
 }
 
+.paragraph-content-bold {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  color: var(--paragraph-color);
+}
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 14px;
   width: 100%;
+}
+
+.button-total-care {
+  justify-content: space-evenly;
+  width: 50%;
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border-radius: 4px;
+  padding: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
 }
